@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:LNConstraint.xcodeproj">
+      location = "self:/Users/lonnie/Documents/LNConstraint/ArithmeticConstraint.xcodeproj">
    </FileRef>
 </Workspace>

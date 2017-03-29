@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F061F1711E8C000800D9A47F"
-               BuildableName = "LNConstraint.app"
-               BlueprintName = "LNConstraint"
-               ReferencedContainer = "container:LNConstraint.xcodeproj">
+               BuildableName = "ArithmeticConstraint.app"
+               BlueprintName = "ArithmeticConstraint"
+               ReferencedContainer = "container:ArithmeticConstraint.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F061F1711E8C000800D9A47F"
-            BuildableName = "LNConstraint.app"
-            BlueprintName = "LNConstraint"
-            ReferencedContainer = "container:LNConstraint.xcodeproj">
+            BuildableName = "ArithmeticConstraint.app"
+            BlueprintName = "ArithmeticConstraint"
+            ReferencedContainer = "container:ArithmeticConstraint.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F061F1711E8C000800D9A47F"
-            BuildableName = "LNConstraint.app"
-            BlueprintName = "LNConstraint"
-            ReferencedContainer = "container:LNConstraint.xcodeproj">
+            BuildableName = "ArithmeticConstraint.app"
+            BlueprintName = "ArithmeticConstraint"
+            ReferencedContainer = "container:ArithmeticConstraint.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F061F1711E8C000800D9A47F"
-            BuildableName = "LNConstraint.app"
-            BlueprintName = "LNConstraint"
-            ReferencedContainer = "container:LNConstraint.xcodeproj">
+            BuildableName = "ArithmeticConstraint.app"
+            BlueprintName = "ArithmeticConstraint"
+            ReferencedContainer = "container:ArithmeticConstraint.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

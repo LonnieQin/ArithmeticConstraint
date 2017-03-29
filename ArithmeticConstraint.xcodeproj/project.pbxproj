@@ -12,16 +12,18 @@
 		F061F17B1E8C000800D9A47F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F061F1791E8C000800D9A47F /* Main.storyboard */; };
 		F061F17D1E8C000800D9A47F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F061F17C1E8C000800D9A47F /* Assets.xcassets */; };
 		F061F1801E8C000800D9A47F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F061F17E1E8C000800D9A47F /* LaunchScreen.storyboard */; };
+		F061F1881E8C003900D9A47F /* ArithmeticConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F061F1871E8C003900D9A47F /* ArithmeticConstraint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F061F1721E8C000800D9A47F /* LNConstraint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LNConstraint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F061F1721E8C000800D9A47F /* ArithmeticConstraint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArithmeticConstraint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F061F1751E8C000800D9A47F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F061F1771E8C000800D9A47F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F061F17A1E8C000800D9A47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F061F17C1E8C000800D9A47F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F061F17F1E8C000800D9A47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F061F1811E8C000800D9A47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F061F1871E8C003900D9A47F /* ArithmeticConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArithmeticConstraint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,7 @@
 		F061F1691E8C000800D9A47F = {
 			isa = PBXGroup;
 			children = (
-				F061F1741E8C000800D9A47F /* LNConstraint */,
+				F061F1741E8C000800D9A47F /* ArithmeticConstraint */,
 				F061F1731E8C000800D9A47F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,14 +48,15 @@
 		F061F1731E8C000800D9A47F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F061F1721E8C000800D9A47F /* LNConstraint.app */,
+				F061F1721E8C000800D9A47F /* ArithmeticConstraint.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F061F1741E8C000800D9A47F /* LNConstraint */ = {
+		F061F1741E8C000800D9A47F /* ArithmeticConstraint */ = {
 			isa = PBXGroup;
 			children = (
+				F061F1871E8C003900D9A47F /* ArithmeticConstraint.swift */,
 				F061F1751E8C000800D9A47F /* AppDelegate.swift */,
 				F061F1771E8C000800D9A47F /* ViewController.swift */,
 				F061F1791E8C000800D9A47F /* Main.storyboard */,
@@ -61,15 +64,16 @@
 				F061F17E1E8C000800D9A47F /* LaunchScreen.storyboard */,
 				F061F1811E8C000800D9A47F /* Info.plist */,
 			);
+			name = ArithmeticConstraint;
 			path = LNConstraint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F061F1711E8C000800D9A47F /* LNConstraint */ = {
+		F061F1711E8C000800D9A47F /* ArithmeticConstraint */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F061F1841E8C000800D9A47F /* Build configuration list for PBXNativeTarget "LNConstraint" */;
+			buildConfigurationList = F061F1841E8C000800D9A47F /* Build configuration list for PBXNativeTarget "ArithmeticConstraint" */;
 			buildPhases = (
 				F061F16E1E8C000800D9A47F /* Sources */,
 				F061F16F1E8C000800D9A47F /* Frameworks */,
@@ -79,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = LNConstraint;
+			name = ArithmeticConstraint;
 			productName = LNConstraint;
-			productReference = F061F1721E8C000800D9A47F /* LNConstraint.app */;
+			productReference = F061F1721E8C000800D9A47F /* ArithmeticConstraint.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,11 +100,12 @@
 				TargetAttributes = {
 					F061F1711E8C000800D9A47F = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KT6GJ8CA5Q;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = F061F16D1E8C000800D9A47F /* Build configuration list for PBXProject "LNConstraint" */;
+			buildConfigurationList = F061F16D1E8C000800D9A47F /* Build configuration list for PBXProject "ArithmeticConstraint" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F061F1711E8C000800D9A47F /* LNConstraint */,
+				F061F1711E8C000800D9A47F /* ArithmeticConstraint */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F061F1781E8C000800D9A47F /* ViewController.swift in Sources */,
+				F061F1881E8C003900D9A47F /* ArithmeticConstraint.swift in Sources */,
 				F061F1761E8C000800D9A47F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KT6GJ8CA5Q;
 				INFOPLIST_FILE = LNConstraint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.game.LNConstraint;
@@ -272,6 +279,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KT6GJ8CA5Q;
 				INFOPLIST_FILE = LNConstraint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.game.LNConstraint;
@@ -283,7 +291,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F061F16D1E8C000800D9A47F /* Build configuration list for PBXProject "LNConstraint" */ = {
+		F061F16D1E8C000800D9A47F /* Build configuration list for PBXProject "ArithmeticConstraint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F061F1821E8C000800D9A47F /* Debug */,
@@ -292,13 +300,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F061F1841E8C000800D9A47F /* Build configuration list for PBXNativeTarget "LNConstraint" */ = {
+		F061F1841E8C000800D9A47F /* Build configuration list for PBXNativeTarget "ArithmeticConstraint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F061F1851E8C000800D9A47F /* Debug */,
 				F061F1861E8C000800D9A47F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
