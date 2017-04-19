@@ -45,26 +45,26 @@ extension ViewController {
                     let box = UIView()
                     box.backgroundColor = .red
                     view.addSubview(box)
-                    box.ln.leading = view.ln.leading
-                    box.ln.trailing = view.ln.trailing
-                    box.ln.top = view.ln.top
-                    box.ln.bottom = view.ln.bottom
+                    box.ln.leading == view.ln.leading
+                    box.ln.trailing == view.ln.trailing
+                    box.ln.top == view.ln.top
+                    box.ln.bottom == view.ln.bottom
                     
                     let box2 = UIView()
                     box2.backgroundColor = .green
                     view.addSubview(box2)
-                    box2.ln.leading = view.ln.leadingMargin
-                    box2.ln.trailing = view.ln.trailingMargin
-                    box2.ln.top = view.ln.topMargin
-                    box2.ln.bottom = view.ln.bottomMargin
+                    box2.ln.leading == view.ln.leadingMargin
+                    box2.ln.trailing == view.ln.trailingMargin
+                    box2.ln.top == view.ln.topMargin
+                    box2.ln.bottom == view.ln.bottomMargin
                     
                     let box3 = UIView()
                     box3.backgroundColor = .blue
                     view.addSubview(box3)
-                    box3.ln.centerX = view.ln.centerX
-                    box3.ln.centerY = view.ln.centerY
-                    box3.ln.width = ArithmeticWidth(100)
-                    box3.ln.height = ArithmeticHeight(100)
+                    box3.ln.centerX == view.ln.centerX
+                    box3.ln.centerY == view.ln.centerY
+                    box3.ln.width == ArithmeticWidth(100)
+                    box3.ln.height == box3.ln.width
                 
                 }
             }
@@ -81,11 +81,10 @@ extension ViewController {
                     let box = UIView()
                     box.backgroundColor = .red
                     view.addSubview(box)
-                    box.ln.leading = view.ln.leading + 10
-                    box.ln.trailing = view.ln.trailing - 10
-                    box.ln.top = view.ln.top + 100
-                    box.ln.bottom = view.ln.bottom - 100
-                    print(view.constraints)
+                    box.ln.leading == view.ln.leading + 10
+                    box.ln.trailing == view.ln.trailing - 10
+                    box.ln.top == view.ln.top + 100
+                    box.ln.bottom == view.ln.bottom - 100
                 }
             }
             self.navigationController?.pushViewController(VC(), animated: false)
@@ -98,11 +97,10 @@ extension ViewController {
                     let box = UIView()
                     box.backgroundColor = .red
                     view.addSubview(box)
-                    box.ln.centerX = view.ln.trailing*0.5
-                    box.ln.centerY = view.ln.bottom*0.5
-                    box.ln.width = ArithmeticWidth(100)
-                    box.ln.height = ArithmeticHeight(100)
-                    print(view.constraints)
+                    box.ln.centerX == view.ln.trailing*0.5
+                    box.ln.centerY == view.ln.bottom*0.5
+                    box.ln.width == ArithmeticWidth(100)
+                    box.ln.height == ArithmeticHeight(100)
                 }
             }
             self.navigationController?.pushViewController(VC(), animated: false)
@@ -115,12 +113,10 @@ extension ViewController {
                     let box = UIView()
                     box.backgroundColor = .red
                     view.addSubview(box)
-                    box.ln.centerX = view.ln.trailing/2
-                    box.ln.centerY = view.ln.bottom/2
-                    box.ln.width = ArithmeticWidth(100)
-                    box.ln.height = ArithmeticWidth(100)
-                    print(view.constraints)
-                }
+                    box.ln.centerX == view.ln.trailing/2
+                    box.ln.centerY == view.ln.bottom/2
+                    box.ln.width == ArithmeticWidth(100)
+                    box.ln.height == ArithmeticWidth(100)                }
             }
             self.navigationController?.pushViewController(VC(), animated: false)
         })
@@ -134,8 +130,8 @@ extension ViewController {
                     label.numberOfLines = 0
                     label.text = "'>=' can make sure you create a NSLayoutConstraint object with greater-than-or-equal-to relation;\n'<=' can make sure you create a NSLayoutConstraint object with less-than-or-equal-to relation.\n"
                     view.addSubview(label)
-                    label.ln.top = view.ln.top + 100
-                    label.ln.centerX = view.ln.centerX
+                    label.ln.top == view.ln.top + 100
+                    label.ln.centerX == view.ln.centerX
                     label.ln.leading >= view.ln.leading + 20
                     label.ln.trailing <= view.ln.trailing - 20
                 }
