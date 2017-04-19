@@ -121,9 +121,11 @@ func * (left:CGFloat,right:ArithmeticConstraint)->ArithmeticConstraint {
 func * (left:ArithmeticConstraint,right:CGFloat)->ArithmeticConstraint {
     return right*left
 }
+
 func / (left:ArithmeticConstraint,right:CGFloat)->ArithmeticConstraint {
     return (CGFloat(1.0)/right) * left
 }
+
 func + (left:ArithmeticConstraint,right:CGFloat)->ArithmeticConstraint {
     var attr = ArithmeticConstraint(left.attribute)
     attr.constant = left.constant + right
@@ -134,6 +136,12 @@ func + (left:ArithmeticConstraint,right:CGFloat)->ArithmeticConstraint {
 
 func - (left:ArithmeticConstraint,right:CGFloat)->ArithmeticConstraint {
     return left+(-right)
+}
+
+func >> (left:ArithmeticConstraint,right:UILayoutPriority)->ArithmeticConstraint {
+    var constraint = left
+    constraint.priority = right
+    return left
 }
 
 func == (left:ArithmeticConstraint,right:ArithmeticConstraint) {
